@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 @media (prefers-reduced-motion: no-preference) {
   * {
     scroll-behavior: smooth;
@@ -48,8 +50,8 @@
 
 html {
   font-size: 10px;
-  line-height: 1.6;
-  font-family: "Ubuntu", sans-serif;
+  line-height: 1.8;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -265,7 +267,7 @@ section:not(#welcome-section) {
 }
 
 .welcome-text > .welcome-preface {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(1.8rem, 2.8vw);
   font-weight: normal;
   text-align: justify;
@@ -283,7 +285,7 @@ section:not(#welcome-section) {
 
 .welcome-btn > .btn {
   padding: 7.5px 25px;
-  /* font-family: "Ubuntu", serif; */
+  /* font-family: "Inter", serif; */
   font-size: min(1.8rem, 3vw);
   font-weight: bold;
   text-align: center;
@@ -330,7 +332,7 @@ section:not(#welcome-section) {
 }
 
 .welcome-follow > .follow-title {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(1.6rem, 2rem);
   font-weight: bold;
   color: var(--title-color);
@@ -376,7 +378,7 @@ section:not(#welcome-section) {
 
 #about-section > .about-brief {
   padding: 40px 4rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(3rem, 4.5vw);
   font-weight: bold;
   text-align: center;
@@ -391,7 +393,7 @@ section:not(#welcome-section) {
 
 :where(.about-hobbies, .about-details) > p {
   text-indent: 2rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(1.8rem, 2.5vw);
   font-weight: normal;
   text-align: justify;
@@ -443,7 +445,7 @@ section:not(#welcome-section) {
 
 .experience-detail li {
   margin-top: 1rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(1.6rem, 2.5vw);
   font-weight: normal;
   line-height: 1.5;
@@ -460,7 +462,7 @@ section:not(#welcome-section) {
 }
 
 .projects-header > h2 {
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", serif;
   font-size: min(7.5rem, 10vw);
   font-weight: bold;
   color: var(--title-color);
@@ -468,7 +470,7 @@ section:not(#welcome-section) {
 }
 
 /* .projects-header > h3 {
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", serif;
   font-size: min(2.5rem, 4vw);
   font-weight: normal;
   color: var(--title-color);
@@ -510,7 +512,7 @@ section:not(#welcome-section) {
 }
 
 /* .project-tile > div {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(1.6rem, 2.5vw);
   font-weight: normal;
   text-align: justify;
@@ -526,7 +528,7 @@ section:not(#welcome-section) {
 }
 
 .project-tile .project-title {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(3rem, 3.5vw);
   font-weight: bold;
   color: var(--special-text-color);
@@ -545,7 +547,7 @@ section:not(#welcome-section) {
 }
 
 /* .project-tile > .project-preface {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(1.8rem, 2.2vw);
   font-weight: normal;
   color: var(--text-color);
@@ -555,7 +557,7 @@ section:not(#welcome-section) {
 } */
 
 #projects-section > .btn.see-more-btn {
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", serif;
   font-size: min(2rem, 3vw);
   font-weight: bold;
   text-align: center;
@@ -586,14 +588,14 @@ section:not(#welcome-section) {
 }
 
 .services-header > h2 {
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", serif;
   font-size: min(3rem, 4vw);
   font-weight: bold;
   color: var(--title-color);
 }
 
 .services-header > h3 {
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", serif;
   font-size: min(2rem, 3vw);
   font-weight: normal;
   color: var(--title-color);
@@ -640,7 +642,7 @@ section:not(#welcome-section) {
 }
 
 .service > .service-title {
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", serif;
   font-size: min(2.5rem, 3.5vw);
   font-weight: bold;
   color: var(--title-color);
@@ -649,7 +651,7 @@ section:not(#welcome-section) {
 }
 
 .service > .service-details {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(1.6rem, 2.5vw);
   font-weight: normal;
   color: var(--text-color);
@@ -665,7 +667,7 @@ section:not(#welcome-section) {
 }
 
 .contact-header > h2 {
-  font-family: "Ubuntu", serif;
+  font-family: "Inter", serif;
   font-size: min(5.5rem, 7.5vw);
   font-weight: bold;
   letter-spacing: 0.2rem;
@@ -673,8 +675,8 @@ section:not(#welcome-section) {
 }
 
 .contact-header > h3 {
-  font-family: serif;
-  font-size: min(2.2rem, 3.3vw);
+  font-family: "Merriweather", sans-serif;
+  font-size: min(2rem, 3vw);
   font-weight: normal;
   font-style: italic;
   color: var(--title-color);
@@ -693,7 +695,7 @@ section:not(#welcome-section) {
 }
 
 .contact-link > .btn.contact-details {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: min(2.5rem, 3.5vw);
   color: var(--title-color);
   padding-top: 10px;
@@ -720,7 +722,7 @@ section:not(#welcome-section) {
 }
 
 #footer > p {
-  font-family: "Sanchez", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: min(1.4rem, 2.2vw);
   font-weight: normal;
   color: var(--text-color);
@@ -800,13 +802,6 @@ section:not(#welcome-section) {
     box-shadow: 1px 1px 5px 1px var(--box-shadow-color);
     display: flex;
     flex-direction: column-reverse;
-    /* display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-auto-rows: max-content;
-    grid-auto-columns: max-content;
-    justify-items: center;
-    align-items: center;
-    column-gap: 1vw; */
   }
 
   .project-tile .project-title {
